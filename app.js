@@ -27,7 +27,7 @@ client.on('message', async message => {
     } else {
       message.reply("The target isn't in voice channel!");
     }
-  }
+  };
 });
 
 client.login(process.env.BOT_TOKEN);
